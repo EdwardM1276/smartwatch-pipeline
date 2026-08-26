@@ -1,0 +1,13 @@
+2026-06-23 01:33:02,884 - INFO - ======================================================================
+2026-06-23 01:33:02,995 - INFO - ======================================================================
+2026-06-23 01:33:03,178 - INFO - Validation Report:
+2026-06-23 01:33:03,178 - INFO -   - Records: 450
+2026-06-23 01:33:03,181 - INFO -   - Columns: 16
+2026-06-23 01:33:03,182 - INFO -   - Missing values: {'Current Price': np.int64(10), 'Original Price': np.int64(73), 'Discount Percentage': np.int64(73), 'Rating': np.int64(6), 'Number OF Ratings': np.int64(59), 'Model Name': np.int64(35), 'Dial Shape': np.int64(123), 'Strap Color': np.int64(123), 'Strap Material': np.int64(69), 'Touchscreen': np.int64(37), 'Battery Life (Days)': np.int64(32), 'Bluetooth': np.int64(6), 'Display Size': np.int64(30), 'Weight': np.int64(186)}
+2026-06-23 01:33:03,207 - INFO -   - Standardized column names: ['unnamed:_0', 'brand', 'current_price', 'original_price', 'discount_percentage', 'rating', 'number_of_ratings', 'model_name', 'dial_shape', 'strap_color', 'strap_material', 'touchscreen', 'battery_life_(days)', 'bluetooth', 'display_size', 'weight']
+2026-06-23 01:33:03,285 - INFO -   - Created price_tier feature
+2026-06-23 01:33:03,288 - INFO -   - Created discount_category feature
+2026-06-23 01:33:03,295 - INFO -   - Created rating_category feature
+2026-06-23 01:33:03,298 - INFO -   - Created discount_amount feature
+2026-06-23 01:33:03,372 - INFO -   - Saved: data/processed\smartwatches_clean.csv
+2026-06-23 01:33:03,382 - INFO -   - Saved: data/processed\smartwatches_clean.json

@@ -1,0 +1,61 @@
+{
+  "pipeline_name": "Advanced Smartwatch Pipeline",
+  "version": "2.0",
+  "run_date": "2026-08-26T17:56:54.834306",
+  "validation": {
+    "total_records": 450,
+    "total_columns": 16,
+    "missing_values": {
+      "Current Price": 10,
+      "Original Price": 73,
+      "Discount Percentage": 73,
+      "Rating": 6,
+      "Number OF Ratings": 59,
+      "Model Name": 35,
+      "Dial Shape": 123,
+      "Strap Color": 123,
+      "Strap Material": 69,
+      "Touchscreen": 37,
+      "Battery Life (Days)": 32,
+      "Bluetooth": 6,
+      "Display Size": 30,
+      "Weight": 186
+    },
+    "duplicates": 0,
+    "column_names": [
+      "Unnamed: 0",
+      "Brand",
+      "Current Price",
+      "Original Price",
+      "Discount Percentage",
+      "Rating",
+      "Number OF Ratings",
+      "Model Name",
+      "Dial Shape",
+      "Strap Color",
+      "Strap Material",
+      "Touchscreen",
+      "Battery Life (Days)",
+      "Bluetooth",
+      "Display Size",
+      "Weight"
+    ],
+    "schema_issues": []
+  },
+  "summary": {
+    "records_processed": 450,
+    "columns_final": 26,
+    "features_created": [
+      "price_tier",
+      "discount_category",
+      "rating_category",
+      "discount_amount",
+      "display_size_inches",
+      "weight_grams",
+      "has_bluetooth",
+      "has_touchscreen",
+      "value_score",
+      "brand_popularity_score"
+    ]
+  }
+}

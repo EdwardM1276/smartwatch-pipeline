@@ -1,0 +1,9 @@
+{
+  "pipeline_name": "Advanced Smartwatch Pipeline",
+  "version": "2.0",
+  "run_date": "2026-07-05T12:52:48.956932",
+  "validation": {
+    "total_records": 450,
+    "total_columns": 16,
+    "missing_values": {
+      "Current Price": 

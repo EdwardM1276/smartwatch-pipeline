@@ -1,0 +1,221 @@
+{
+  "timestamp": "2026-08-26T17:56:54.838862",
+  "total_records": 450,
+  "total_columns": 26,
+  "memory_usage_mb": 0.27622032165527344,
+  "duplicate_count": 0,
+  "column_quality": {
+    "unnamed:_0": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 450,
+      "dtype": "int64",
+      "min": 0.0,
+      "max": 449.0,
+      "mean": 224.5,
+      "std": 130.0480680363995
+    },
+    "brand": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 18,
+      "dtype": "object"
+    },
+    "current_price": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 164,
+      "dtype": "float64",
+      "min": 1199.0,
+      "max": 139990.0,
+      "mean": 12553.142222222223,
+      "std": 17609.161734094578
+    },
+    "original_price": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 104,
+      "dtype": "float64",
+      "min": 1669.0,
+      "max": 96390.0,
+      "mean": 13527.666666666666,
+      "std": 14346.636604045972
+    },
+    "discount_percentage": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 271,
+      "dtype": "float64",
+      "min": -79.68843619,
+      "max": 91.00455023,
+      "mean": 49.261086867071114,
+      "std": 22.185718319756514
+    },
+    "rating": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 27,
+      "dtype": "float64",
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 4.032222222222222,
+      "std": 0.5469143607463567
+    },
+    "number_of_ratings": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 250,
+      "dtype": "float64",
+      "min": 1.0,
+      "max": 619130.0,
+      "mean": 10205.115555555556,
+      "std": 37844.309729583736
+    },
+    "model_name": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 389,
+      "dtype": "object"
+    },
+    "dial_shape": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 6,
+      "dtype": "object"
+    },
+    "strap_color": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 30,
+      "dtype": "object"
+    },
+    "strap_material": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 15,
+      "dtype": "object"
+    },
+    "touchscreen": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 2,
+      "dtype": "object"
+    },
+    "battery_life_(days)": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 7,
+      "dtype": "float64",
+      "min": 0.75,
+      "max": 22.0,
+      "mean": 14.320777777777778,
+      "std": 7.490319398689402
+    },
+    "bluetooth": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 2,
+      "dtype": "object"
+    },
+    "display_size": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 40,
+      "dtype": "object"
+    },
+    "weight": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 5,
+      "dtype": "object"
+    },
+    "price_tier": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 4,
+      "dtype": "category"
+    },
+    "discount_category": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 5,
+      "dtype": "category"
+    },
+    "rating_category": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 5,
+      "dtype": "category"
+    },
+    "discount_amount": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 188,
+      "dtype": "float64",
+      "min": -131991.0,
+      "max": 19589.0,
+      "mean": 974.5244444444445,
+      "std": 13881.70146646579
+    },
+    "display_size_inches": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 40,
+      "dtype": "float64",
+      "min": 0.0,
+      "max": 45.0,
+      "mean": 2.139777777777778,
+      "std": 4.233885466335152
+    },
+    "weight_grams": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 5,
+      "dtype": "float64",
+      "min": 20.0,
+      "max": 75.0,
+      "mean": 37.00555555555555,
+      "std": 17.94238714252331
+    },
+    "has_bluetooth": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 2,
+      "dtype": "int64",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.9911111111111112,
+      "std": 0.0939654066616901
+    },
+    "has_touchscreen": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 2,
+      "dtype": "int64",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.9466666666666667,
+      "std": 0.2249474078599165
+    },
+    "value_score": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 304,
+      "dtype": "float64",
+      "min": 0.1342617329809272,
+      "max": 15.675813177648042,
+      "mean": 4.312342885085013,
+      "std": 3.55151862367008
+    },
+    "brand_popularity_score": {
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 18,
+      "dtype": "float64",
+      "min": 0.05555555555555555,
+      "max": 1.0,
+      "mean": 0.6375308641975309,
+      "std": 0.2626312339613164
+    }
+  }
+}

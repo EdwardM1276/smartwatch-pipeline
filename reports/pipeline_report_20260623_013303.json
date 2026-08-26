@@ -1,0 +1,48 @@
+{
+  "pipeline_name": "Smartwatch Data Pipeline",
+  "version": "2.0",
+  "start_time": "2026-06-23T01:33:02.872700",
+  "status": "initialized",
+  "steps": [
+    {
+      "name": "Load Data",
+      "status": "completed",
+      "timestamp": "2026-06-23T01:33:03.127608",
+      "details": "Loaded 450 records"
+    },
+    {
+      "name": "Data Validation",
+      "status": "completed",
+      "timestamp": "2026-06-23T01:33:03.183888",
+      "details": "Validation checks passed"
+    },
+    {
+      "name": "Data Cleaning",
+      "status": "completed",
+      "timestamp": "2026-06-23T01:33:03.248765",
+      "details": "Cleaned 450 records"
+    },
+    {
+      "name": "Feature Engineering",
+      "status": "completed",
+      "timestamp": "2026-06-23T01:33:03.299409",
+      "details": "Created 20 columns"
+    },
+    {
+      "name": "Save Data",
+      "status": "completed",
+      "timestamp": "2026-06-23T01:33:03.710193",
+      "details": "Saved 2 files"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "validation_report": {
+    "total_records": 450,
+    "total_columns": 16,
+    "missing_columns": [],
+    "invalid_prices": 0,
+    "invalid_ratings": 0,
+    "invalid_discounts": 0,
+    "missing_values": {
+      "Current Price": 
